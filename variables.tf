@@ -1,5 +1,7 @@
 variable "description" { type = string }
-variable "vpc_id" {}
+variable "vpc_id" {
+  type = "string"
+}
 variable "common_tags" {}
 variable "sg_tags" {
   default = {}
