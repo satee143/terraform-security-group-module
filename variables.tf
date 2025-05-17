@@ -1,6 +1,6 @@
 variable "description" { type = string }
 variable "vpc_id" {
-  type = "string"
+  type = string
 }
 variable "common_tags" {}
 variable "sg_tags" {
